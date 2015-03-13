@@ -4,7 +4,7 @@
 
 
 | Item | Quantity | Notes |
-|---|---|---|
+|---|:---:|---:|
 | Camera: Canon SL1 DSLr  | 2  |
 | Lens: Rokinon 85mm f/1.4 | 2 |
 | Camera Power Supply: Canon ACK-E15 or equivalent | 2 |
