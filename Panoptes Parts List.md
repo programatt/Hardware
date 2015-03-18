@@ -3,18 +3,18 @@
 ## Camera Box Hardware
 
 
-| Item | Quantity | Notes |
-|---|:---:|---:|
-| Camera: Canon SL1 DSLr  | 2  |
-| Lens: Rokinon 85mm f/1.4 | 2 |
-| Camera Power Supply: Canon ACK-E15 or equivalent | 2 |
-| Camera Enclosure: Bud Industries NB-32318 |  1 |
-| Aluminum Plates (0.5" x 3" x 12") | 3 | Amazon?
-| Vixen Style Dovetail Rail (~8" long) | 1 |
-| M6 Bolts
-| 1/4-20 Bolts
-| USB Cables
-| USB Hub
+| Item | Model | Quantity | Notes |
+|---|---|:---:|---|
+| Camera | Canon SL1 DSLR  | 2  |
+| Lens | Rokinon 85mm f/1.4 | 2 |
+| Camera Power Supply | Canon ACK-E15 or equivalent | 2 |
+| Camera Enclosure | Bud Industries NB-32318 |  1 |
+| Aluminum Plates | | 3 | 0.5" x 3" x 12"
+| Vixen Dovetail Rail | | 1 | ~8" long
+| M6 Bolts | | |
+| 1/4-20 Bolts | | |
+| USB Cables | | |
+| USB Hub | | |
 
 ### Tools
 
@@ -23,32 +23,27 @@
 
 ## Mount
 
-* Mount: iOptron iEQ30 Pro
-	* quantity = 1
-* Pier (optional)
+| Item | Model | Quantity | Notes |
+|---|---|:---:|---|
+| Mount | iOptron iEQ30 Pro | 1 |
+
+## Pier
+
+The pier is optional, one may use the included tripod instead.
 
 ## Electronics Box
 
-* Electronics Enclosure: Pelican 1640 Case
-	* quantity = 1
-* Power Supply: Power Stream PST-SP12AL
-	* quantity = 1
-	* http://www.powerstream.com/12V-backup.htm
-* Battery
-	* quantity = 1
-
-
-
+| Item | Model | Quantity | Notes |
+|---|---|:---:|---|
+| Electronics Enclosure | Pelican 1640 Case | 1 | 
+| Power Supply | Power Stream PST-SP12AL | 1 | http://www.powerstream.com/12V-backup.htm
+| Battery |  | 1 | 
 
 ### Computer
 
-* Computer: Intel NUC
-	* quantity = 1
-	* part number: TBD
-		* Previously used 4th Generation model D54250WYK.  5th genration are out
-* RAM for NUC:
-	* quantity = 16 GB
-	* use any compatible RAM
-* SSD for NUC
-	* quantity = 32 GB or more
-	* use any compatible SSD
+| Item | Model | Quantity | Notes |
+|---|---|:---:|---|
+| Computer | Intel NUC | 1 | previously used 4th Generation model D54250WYK.  5th genration are out
+| RAM for NUC | | 16 GB | use any compatible RAM
+| SSD for NUC | | 32 GB or more | use any compatible SSD
+| USB to Serial Adapter | | |
