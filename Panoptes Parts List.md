@@ -11,39 +11,32 @@
 | Camera Enclosure | Bud Industries NB-32318 |  1 |
 | Aluminum Plates | | 3 | 0.5" x 3" x 12"
 | Vixen Dovetail Rail | | 1 | ~8" long
-| M6 Bolts | | |
-| 1/4-20 Bolts | | |
-| USB Cables | | |
-| USB Hub | | |
-
-### Tools
-
-* Hole Saw
-* Hole Saw Drill
-
-## Mount
-
-| Item | Model | Quantity | Notes |
-|---|---|:---:|---|
+|
+| __Mount__
 | Mount | iOptron iEQ30 Pro | 1 |
-
-## Pier
-
-The pier is optional, one may use the included tripod instead.
-
-## Electronics Box
-
-| Item | Model | Quantity | Notes |
-|---|---|:---:|---|
+| Pier | | 1 | The pier is optional, you can use the included tripod instead
+|
+| __Electronics Box__
 | Electronics Enclosure | Pelican 1640 Case | 1 | 
 | Power Supply | Power Stream PST-SP12AL | 1 | http://www.powerstream.com/12V-backup.htm
 | Battery |  | 1 | 
-
-### Computer
-
-| Item | Model | Quantity | Notes |
-|---|---|:---:|---|
+|
+| __Computer__
 | Computer | Intel NUC | 1 | previously used 4th Generation model D54250WYK.  5th genration are out
 | RAM for NUC | | 16 GB | use any compatible RAM
 | SSD for NUC | | 32 GB or more | use any compatible SSD
 | USB to Serial Adapter | | |
+| USB Cables | | |
+| USB Hub | | |
+|
+| __Bolts__
+| M6 Bolts | | |
+| 1/4-20 Bolts | | |
+
+
+### Tools
+
+
+* Power hand drill or drill press
+	* Hole Saw
+	* Hole Saw Drill
