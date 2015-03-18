@@ -1,10 +1,9 @@
 # Panoptes Parts List
 
-## Camera Box Hardware
-
 
 | Item | Model | Quantity | Notes |
 |---|---|:---:|---|
+| __Camera Box__
 | Camera | Canon SL1 DSLR  | 2  |
 | Lens | Rokinon 85mm f/1.4 | 2 |
 | Camera Power Supply | Canon ACK-E15 or equivalent | 2 |
@@ -32,9 +31,16 @@
 | __Bolts__
 | M6 Bolts | | |
 | 1/4-20 Bolts | | |
+|
+| __Electronics__
+| Arduino | Arduino Micro | 2 |
+| Temperature Sensor | DS18B20 | 5 |
+| Humidity Sensor | DHT22 | 2 |
+| Orientation Sensor | MMA8451 | 1 |
 
 
-### Tools
+
+## Tools
 
 
 * Power hand drill or drill press
