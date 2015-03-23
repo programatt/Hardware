@@ -18,7 +18,7 @@
 | Pier | 1 | | $ | The pier is optional, you can use the included tripod instead |
 |
 | __Electronics Box__
-| Electronics Enclosure: Pelican 1640 | 1 |  | $ | 
+| Electronics Enclosure: Pelican 1560 | 1 |  | $ | 
 | Power Supply | 1 | PowerStream PST-SP12AL | $98 (2015/03) | http://www.powerstream.com/12V-backup.htm
 | Battery |  1 | | $ |
 | Computer: Intel NUC | 1 | NUC5i3RYK (or NUC5i5RYK) | ~$290 | Previously used 4th gen model D54250WYK.  5th genration are out | 
