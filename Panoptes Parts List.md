@@ -4,11 +4,11 @@
 | Item | Quantity | Vendor & Part | Approx. Price | Notes
 |---|:---:|---|---|---
 | __Camera Box__
-| Camera: Canon SL1 DSLR  | 2  | | ~$399 | Available from Amazon
-| Lens: Rokinon 85M-C 85mm f/1.4 | 2 | | ~$269 | available from Amazon
+| Camera: Canon SL1 DSLR  | 2  | | ~$399 | Available from Amazon (http://amzn.com/B00BW6LXHA)
+| Lens: Rokinon 85M-C 85mm f/1.4 | 2 | | ~$269 | available from Amazon (http://amzn.com/B0025EWXEU)
 | SD Card: | 2 | | $ | get 4GB or more
-| Camera Power Supply  | 2 | | $ | Canon ACK-E15 or equivalent
-| Camera Enclosure: Bud Industries NB-32318 |  1 |  | $ | 
+| Camera Power Supply  | 2 | | $ | Canon ACK-EL15 or equivalent (e.g. http://amzn.com/B00F5VMIQS)
+| Camera Enclosure: Bud Industries NBF-32318 |  1 |  | $ | Available from Amazon (http://amzn.com/B005UPBOXW)
 | Aluminum Plates | 3 | | $ | 0.5" x 3" x 12"
 | Vixen Dovetail Rail | 1 | OPT #OR-7383 (or OPT #SV-TP10) | $21-40 (2015/03) | any ~8" long Vixen style rail will work
 | USB Hub | 1 | |
