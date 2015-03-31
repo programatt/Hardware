@@ -21,9 +21,9 @@
 | Electronics Enclosure: Pelican 1560 | 1 |  | $ | 
 | Power Supply | 1 | PowerStream PST-SP12AL | $98 (2015/03) | http://www.powerstream.com/12V-backup.htm
 | Battery |  1 | | $ |
-| Computer: Intel NUC | 1 | NUC5i3RYK (or NUC5i5RYK) | ~$290 | Previously used 4th gen model D54250WYK.  5th genration are out | 
-| RAM for NUC | 1 | | ~$46 | use any compatible RAM, 4 GB or more
-| SSD for NUC | 1 | | ~$40 | use any compatible SSD, 32 GB or more
+| Computer: Intel NUC | 1 | NUC5i3RYK (or NUC5i5RYK) | $299 | Previously used 4th gen model D54250WYK.  5th genration are out. Available from Amazon (http://amzn.com/B00S1ISFOQ) | 
+| RAM for NUC | 1 | | ~$46 | use any compatible RAM, 4 GB or more. (e.g. http://amzn.com/B005MWQ6WC)
+| SSD for NUC | 1 | | ~$40 | use any compatible SSD, 32 GB or more (e.g. http://amzn.com/B00KLTPUPA)
 | External Hard Drive | 2 | | $ | 
 | USB to Serial Adapter | | | | |
 | USB Cables | | | |
