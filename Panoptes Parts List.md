@@ -16,7 +16,7 @@
 | __Mount__
 | Mount: iOptron iEQ30 Pro | 1 | OPT #IO-3000E | $1299 (2015/03)
 |
-| __Custom Pier__ | | | __The pier is optional, you can use the included tripod instead__
+| __Custom Pier__ | | | | __The pier is optional, you can use the included tripod instead__
 | Aluminum 8"x8" x 3/4" | 1 | eBay | $22.15 | [Jun 03, 2015] eBay seller m6061dude, otherwise try onlinemetals (likely to be more expensive + shipping)
 | Aluminum 12"x12" x 3/4" | 1 | eBay | $46 | [Jun 03, 2015] eBay seller metalremnantsinc, otherwise try speedymetals (likely to be more expensive + shipping)
 |
