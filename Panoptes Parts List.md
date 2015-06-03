@@ -4,12 +4,12 @@
 | Item | Quantity | Vendor & Part | Approx. Price | Notes
 |---|:---:|---|---|---
 | __Camera Box__
-| Camera: Canon SL1 DSLR  | 2  | | ~$399 | Available from Amazon (http://amzn.com/B00BW6LXHA)
-| Lens: Rokinon 85M-C 85mm f/1.4 | 2 | | ~$269 | available from Amazon (http://amzn.com/B0025EWXEU)
+| Camera: Canon SL1 DSLR  | 2  | | $399 | [Jun 03, 2015] Amazon B00BW6LXHA, check also used cameras, at ~$290
+| Lens: Rokinon 85M-C 85mm f/1.4 | 2 | | $269 | [Jun 03, 2015] Amazon B0025EWXEU 
 | SD Card: | 2 | | $ | get 4GB or more
-| Camera Power Supply  | 2 | | $ | Canon ACK-EL15 or equivalent (e.g. http://amzn.com/B00F5VMIQS)
-| Camera Enclosure: Bud Industries NBF-32318 |  1 |  | $ | Available from Amazon (http://amzn.com/B005UPBOXW)
-| Aluminum Plates | 3 | | $ | 0.5" x 3" x 12"
+| Camera Power Supply Canon ACK-EL15 or equivalent  | 2 | | $15.75 | [Jun 03, 2015] Amazon B00F5VMIQS
+| Camera Enclosure: Bud Industries NBF-32318 |  1 |  | $58.95 | [Jun 03, 2015] Amazon B005UPBOXW
+| Aluminum Plates 0.5" x 3" x 12" | 3 | | $8.59 | [Jun 03, 2015] ebay temco ($85.58 for qty=10)
 | Vixen Dovetail Rail | 1 | OPT #OR-7383 (or OPT #SV-TP10) | $21-40 (2015/03) | any ~8" long Vixen style rail will work
 | USB Hub | 1 | |
 |
