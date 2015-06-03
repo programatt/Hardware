@@ -4,21 +4,24 @@
 | Item | Quantity | Vendor & Part | Approx. Price | Notes
 |---|:---:|---|---|---
 | __Camera Box__
-| Camera: Canon SL1 DSLR  | 2  | | $399 | [Jun 03, 2015] Amazon B00BW6LXHA, check also used cameras, at ~$290
-| Lens: Rokinon 85M-C 85mm f/1.4 | 2 | | $269 | [Jun 03, 2015] Amazon B0025EWXEU 
+| Camera: Canon SL1 DSLR  | 2  | Amazon B00BW6LXHA | $399 | [Jun 03, 2015] check also used cameras, at ~$290
+| Lens: Rokinon 85M-C 85mm f/1.4 | 2 | Amazon B0025EWXEU | $269 | [Jun 03, 2015] 
 | SD Card: | 2 | | $ | get 4GB or more
-| Camera Power Supply Canon ACK-EL15 or equivalent  | 2 | | $15.75 | [Jun 03, 2015] Amazon B00F5VMIQS
-| Camera Enclosure: Bud Industries NBF-32318 |  1 |  | $58.95 | [Jun 03, 2015] Amazon B005UPBOXW
-| Aluminum Plates 0.5" x 3" x 12" | 3 | | $8.59 | [Jun 03, 2015] ebay temco ($85.58 for qty=10)
+| Camera Power Supply Canon ACK-EL15 or equivalent  | 2 | Amazon B00F5VMIQS | $15.75 | [Jun 03, 2015] 
+| Camera Enclosure: Bud Industries NBF-32318 |  1 | Amazon B005UPBOXW | $58.95 | [Jun 03, 2015] 
+| Aluminum Plates 0.5" x 3" x 12" | 3 | eBay | $8.59 | [Jun 03, 2015] ebay temco ($85.58 for qty=10). If not available on eBay, try www.speedymetals.com (likely to be more expensive + shipping)
 | Vixen Dovetail Rail | 1 | OPT #OR-7383 (or OPT #SV-TP10) | $21-40 (2015/03) | any ~8" long Vixen style rail will work
-| USB Hub | 1 | |
+| USB Hub | 1 | Amazon B001IWOB4U | $6.99 | [Jun 03, 2015] 
 |
 | __Mount__
 | Mount: iOptron iEQ30 Pro | 1 | OPT #IO-3000E | $1299 (2015/03)
-| Pier | 1 | | $ | The pier is optional, you can use the included tripod instead |
+|
+| __Custom Pier (The pier is optional, you can use the included tripod instead)__
+| Aluminum 8"x8" x 3/4" | 1 | eBay | $22.15 | [Jun 03, 2015] eBay seller m6061dude, otherwise try onlinemetals (likely to be more expensive + shipping)
+| Aluminum 12"x12" x 3/4" | 1 | eBay | $46 | [Jun 03, 2015] eBay seller metalremnantsinc, otherwise try speedymetals (likely to be more expensive + shipping)
 |
 | __Electronics Box__
-| Electronics Enclosure: Pelican 1560 | 1 |  | $ | 
+| Electronics Enclosure: Pelican 1560 | 1 | Amazon B000ALVE2M | $164.95 | Pick light color (white, silver, grey)
 | Power Supply | 1 | PowerStream PST-SP12AL | $98 (2015/03) | http://www.powerstream.com/12V-backup.htm
 | Battery |  1 | | $ |
 | Computer: Intel NUC | 1 | NUC5i3RYK (or NUC5i5RYK) | $299 | Previously used 4th gen model D54250WYK.  5th genration are out. Available from Amazon (http://amzn.com/B00S1ISFOQ) | 
