@@ -11,7 +11,7 @@
 | Camera Enclosure: Bud Industries NBF-32318 |  1 | Amazon B005UPBOXW | $58.95 | [Jun 03, 2015] 
 | Aluminum Plates 0.5" x 3" x 12" | 3 | eBay | $8.59 | [Jun 03, 2015] ebay temco ($85.58 for qty=10). If not available on eBay, try www.speedymetals.com (likely to be more expensive + shipping)
 | Vixen Dovetail Rail | 1 | OPT #OR-7383 (or OPT #SV-TP10) | $21-40 (2015/03) | any ~8" long Vixen style rail will work
-| USB Hub | 1 | Amazon B001IWOB4U | $6.99 | [Jun 03, 2015] 
+| USB Hub | 1 | Amazon B003M0NURK | $6.75 | [Jun 03, 2015] 
 | Mini right angle USB cable | 2 | Amazon B004W8EIMW | $4.19 | [Jun 03, 2015] Right angle connected required to fit in tight space
 |
 | __Mount__
