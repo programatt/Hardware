@@ -21,6 +21,9 @@
 | Aluminum 8"x8" x 3/4" | 1 | eBay | $22.15 | [Jun 03, 2015] eBay seller m6061dude, otherwise try onlinemetals (likely to be more expensive + shipping)
 | Aluminum 12"x12" x 3/4" | 1 | eBay | $46 | [Jun 03, 2015] eBay seller metalremnantsinc, otherwise try speedymetals (likely to be more expensive + shipping)
 | Webcam mounting bracket | 2 | Amazon B003XJ0MQM | $6.58 | [Jun 03, 2015] 
+| Pier post beams, 500mm long extrusion | 2 | Misumi HFS8-80160-500-TPW | $84.75 | [Jun 05, 2015]
+| Pier post side beam for webcm | 1 | Misumi HFS8-4080-400 | $13.20 | [Jun 05, 2015]
+| end caps | 1 | Misumi HFC8-4080-S | $3.00 | [Jun 05, 2015]
 |
 | __Electronics Box__
 | Electronics Enclosure: Pelican 1560 | 1 | Amazon B000ALVE2M | $164.95 | Pick light color (white, silver, grey)
