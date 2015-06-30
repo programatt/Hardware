@@ -35,7 +35,7 @@
 | 4 GB RAM for NUC | 1 | Amazon B005MWQ6WC | $27.99 | [Jun 03, 2015] use any compatible RAM, 4 GB or more. 
 | 128 GB SSD for NUC | 1 | Amazon B00KLTPUPA | $64.99 | [Jun 03, 2015] use any compatible SSD, 64 GB or more 
 | External Hard Drive | 2 | | $ | 
-| USB to Serial Adapter | | | | |
+| USB to Serial Adapter | 2 | [FTDI Chip](http://shop.clickandbuild.com/cnb/shop/ftdichip?productID=56&op=catalogue-product_info-null&prodCategoryID=84 | £13.50 | |
 | USB Cables | | | |
 | USB Hub | | | |
 | 80mm ball bearing fan | 1 | Amazon B0009JZSKO | $4.95 | [Jun 03, 2015]
