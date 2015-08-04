@@ -82,7 +82,7 @@ if ! hash conda 2>/dev/null ; then
     echo "Getting Anaconda"
     cd /tmp
 
-    miniconda=Miniconda-latest-Linux-x86_64.sh
+    miniconda=Miniconda3-latest-Linux-x86_64.sh
     if [[ ! -f $miniconda ]]; then
         wget http://repo.continuum.io/miniconda/$miniconda
     fi
@@ -96,7 +96,7 @@ if ! hash conda 2>/dev/null ; then
         add_to_bashrc 'ANACONDADIR' $ANACONDADIR
     fi
 
-    ./$miniconda -b -p $ANACONDADIR
+    bash /tmp/$miniconda -b -p $ANACONDADIR
 
     add_to_bashrc 'PATH', '$ANACONDADIR/bin:\$PATH'
 
