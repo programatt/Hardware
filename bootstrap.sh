@@ -151,9 +151,10 @@ fi
 echo "Installing SWARP and astrometry.net"
 sudo aptitude install -y install swarp astrometry.net
 
-echo "Getting astrometry.net indicies"
-# cd /usr/share/data && sudo wget -q -A fits -m -l 1 -nd http://broiler.astrometry.net/~dstn/4100/
-
+if [ ! -f "/usr/share/data/index-4107.fits" ]; then
+    echo "Getting astrometry.net indicies"
+    cd /usr/share/data && sudo wget -q -A fits -m -l 1 -nd http://broiler.astrometry.net/~dstn/4100/
+fi
 
 echo "************** Done with Requirements **************"
 
