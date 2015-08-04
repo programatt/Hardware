@@ -96,7 +96,7 @@ if ! hash conda 2>/dev/null ; then
         add_to_bashrc 'ANACONDADIR' $ANACONDADIR
     fi
 
-    bash /tmp/$miniconda -b -p $ANACONDADIR
+    bash /tmp/$miniconda -b -fp $ANACONDADIR
 
     add_to_bashrc 'PATH', '$ANACONDADIR/bin:\$PATH'
 
