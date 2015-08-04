@@ -116,7 +116,7 @@ if [ -f "$POCS/requirements.txt" ]; then
     # Activate the panoptes python environment
     cat >> $PANHOME/.bashrc << END
     source activate panoptes
-    END
+END
 fi
 
 echo "Updating gphoto2"
