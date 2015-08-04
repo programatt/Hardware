@@ -111,7 +111,7 @@ fi
 
 if [ -f "$POCS/requirements.txt" ]; then
     echo "Creating an environment for panoptes use"
-    conda create -n panoptes --file $POCS/requirements.txt
+    conda create -y -n panoptes --file $POCS/requirements.txt
 
     # Activate the panoptes python environment
     cat >> $PANHOME/.bashrc << END
