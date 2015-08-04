@@ -110,13 +110,8 @@ if ! hash conda 2>/dev/null ; then
 fi
 
 if [ -f "$POCS/requirements.txt" ]; then
-    echo "Creating an environment for panoptes use"
-    conda create -y -n panoptes --file $POCS/requirements.txt
-
-    # Activate the panoptes python environment
-    cat >> $PANHOME/.bashrc << END
-    source activate panoptes
-END
+    echo "Installing required python packages for PANOPTES"
+    conda install -y --file $POCS/requirements.txt
 fi
 
 echo "Updating gphoto2"
