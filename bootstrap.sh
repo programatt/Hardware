@@ -29,8 +29,9 @@ echo "************** Setting up panoptes user **************"
 if ! id -u $PANUSER >/dev/null 2>&1; then
     sudo adduser --system --group --disabled-login --gecos "PANOPTES User" $PANUSER
     sudo adduser $USER $PANUSER # Current user to panoptes group
-    sudo adduser $PANUSER dialout
 fi
+
+sudo adduser $PANUSER dialout
 
 if [ ! -d "$PANDIR" ]; then
     echo "************** Creating directories **************"
