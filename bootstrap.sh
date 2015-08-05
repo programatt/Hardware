@@ -104,7 +104,7 @@ if ! hash conda 2>/dev/null ; then
 
     # Update the anaconda distribution
     echo "Updating conda"
-    conda update conda
+    $ANACONDADIR/bin/conda update conda
 
     # Check your python version
     echo "Checking python version"
