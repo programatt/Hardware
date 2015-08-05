@@ -156,5 +156,7 @@ fi
 echo "************** Done with Requirements **************"
 
 # Upgrade system
-# echo "Upgrading system"
-# sudo aptitude -y full-upgrade
+echo "Upgrading system"
+sudo aptitude -y full-upgrade
+
+echo "************** Done with install **************"
