@@ -37,9 +37,11 @@ if [ ! -d "$PANDIR" ]; then
     if [ -d /vagrant ]; then
         ln -s /vagrant $PANDIR
     fi
-    sudo mkdir -p $PANDIR/data/     # Metadata (MongoDB)
-    sudo mkdir -p $PANDIR/images/   # Images
-    sudo mkdir -p $PANDIR/webcams/  # Images
+
+    for dir in data images webcams logs
+    do
+        sudo mkdir -p $PANDIR/$dir
+    done
 
     echo "************** Setting up directory permissions **************"
     sudo chown -R $PANUSER:$PANUSER $PANDIR
