@@ -113,7 +113,7 @@ fi
 
 if [ -f "$POCS/requirements.txt" ]; then
     echo "Installing required python packages for PANOPTES"
-    conda install -y --file $POCS/requirements.txt
+    $ANACONDADIR/bin/conda install -y --file $POCS/requirements.txt
 fi
 
 echo "Updating gphoto2"
