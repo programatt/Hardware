@@ -5,15 +5,15 @@ echo "************** Starting with Project Install **************"
 
 PANUSER=panoptes
 PANDIR=/var/panoptes
-PANHOME=/home/$PANUSER
+PANHOME=/home/${PANUSER}
 ANACONDADIR=/opt/anaconda
 
 function add_to_bashrc() {
     echo "Adding environmental variable: $1=$2";
-    cat <<END >> $PANHOME/.bashrc
+    cat <<END >> ${PANHOME}/.bashrc
 export $1=$2
 END
-source $PANHOME/.bashrc
+source ${PANHOME}/.bashrc
 
     if [ -d /home/vagrant ]; then
         cat <<END >> /home/vagrant/.bashrc
