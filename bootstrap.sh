@@ -10,6 +10,10 @@ ANACONDADIR=/opt/anaconda
 
 function add_to_bashrc() {
     echo "Adding environmental variable: $1=$2";
+
+    # Also add to current environment
+    export $1=$2
+
     cat <<END >> ${PANHOME}/.bashrc
 export $1=$2
 END
