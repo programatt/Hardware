@@ -62,6 +62,7 @@ sudo apt-get install -y \
     build-essential \
     fftw3 \
     fftw3-dev \
+    fswebcam \
     git \
     htop \
     libatlas-base-dev \
