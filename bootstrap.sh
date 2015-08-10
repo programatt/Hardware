@@ -146,10 +146,10 @@ fi
 echo "************** Updating gphoto2 **************"
 if [ ! -f "$PANDIR/gphoto2-updater.sh" ]; then
     # This is a big download so we cache it in main dir
-    cd $PANDIR
+    cd /tmp
     wget -q https://raw.githubusercontent.com/gonzalo/gphoto2-updater/master/gphoto2-updater.sh && chmod +x gphoto2-updater.sh
 fi
-sudo $PANDIR/gphoto2-updater.sh >>$PANDIR/bootstrap.log 2>&1
+sudo /tmp/gphoto2-updater.sh >>$PANDIR/bootstrap.log 2>&1
 
 echo "************** Checking cdsclient **************"
 if ! hash cdsclient 2>/dev/null ; then
