@@ -46,9 +46,9 @@
 |
 | __Electronics__ (incomplete list)
 | Arduino Micro | 2 | Adafruit #1086 | $25 (2015/03) |
-| Temperature Sensor: DS18B20 | 5 | Adafruit #374 | $4 (2015/03) | 
-| Humidity Sensor: DHT22 or AM2302 | 2 | Adafruit #393 | $15 (2015/03) | 
-| Orientation Sensor: MMA8451 | 1 | Adafruit #2019 | $8 (2015/03) | 
+| Temperature Sensor: DS18B20 | 5 | [Adafruit #374](http://www.adafruit.com/product/374) | $4 (2015/03) | 
+| Humidity Sensor: DHT22 or AM2302 | 2 | [Adafruit #393](http://www.adafruit.com/product/393) | $15 (2015/03) | 
+| Orientation Sensor: MMA8451 | 1 | [Adafruit #2019](http://www.adafruit.com/product/2019) | $8 (2015/03) | 
 | 9V DC Regulator: | 
 | 5V DC Regulator: |
 | Relay: |
