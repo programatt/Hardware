@@ -5,8 +5,10 @@ echo "************** Starting with Project Install **************"
 
 PANUSER=panoptes
 PANDIR=/var/panoptes
-PANHOME=/home/${PANUSER}
-ANACONDADIR=/opt/anaconda
+# PANHOME=/home/${PANUSER}
+#ANACONDADIR=/opt/anaconda3
+PANHOME=$HOME
+ANACONDADIR=$HOME/anaconda3
 
 function add_to_bashrc() {
     echo "Adding environmental variable: $1=$2";
@@ -56,7 +58,7 @@ if [ ! -d "$PANDIR" ]; then
 fi
 
 # Install additional useful software
-echo "Installing some required software"
+echo "************** Installing some required software **************"
 sudo apt-get install -y \
     aptitude \
     build-essential \
@@ -71,28 +73,29 @@ sudo apt-get install -y \
     mongodb \
     openssh-server \
     sextractor \
-    ;
+    >>$PANDIR/bootstrap.log 2>&1;
 
 # Clone repos
 for repo in POCS PIAA PACE Hardware
 do
     if [ ! -d "$PANDIR/$repo" ]; then
         echo "Grabbing $repo repo"
-        cd $PANDIR && git clone https://github.com/panoptes/${repo}.git
+        cd $PANDIR && git clone https://github.com/panoptes/${repo}.git >>$PANDIR/bootstrap.log 2>&1
         echo "Adding environmental variable: ${repo}=\$PANDIR/${repo}"
         add_to_bashrc ${repo} "$PANDIR/${repo}"
     fi
 done
 source $PANHOME/.bashrc
 
+echo "************** Anaconda Python Distribution **************"
 if ! hash conda 2>/dev/null ; then
     # This is ~300 MB so may take a while to download
-    echo "Getting Anaconda"
+    echo "************** Getting Anaconda **************"
     cd /tmp
 
     miniconda=Miniconda3-latest-Linux-x86_64.sh
     if [[ ! -f $miniconda ]]; then
-        wget http://repo.continuum.io/miniconda/$miniconda
+        wget http://repo.continuum.io/miniconda/$miniconda >>$PANDIR/bootstrap.log 2>&1
     fi
     chmod +x $miniconda
 
@@ -108,61 +111,64 @@ if ! hash conda 2>/dev/null ; then
 
     add_to_bashrc 'PATH' '$ANACONDADIR/bin:$PATH'
 
-    # Update the anaconda distribution
-    echo "Updating conda"
-    $ANACONDADIR/bin/conda update -y conda
 
     # Check your python version
     echo "Checking python version"
     python -V
 fi
 
+# Update the anaconda distribution
+echo "************** Updating conda **************"
+$ANACONDADIR/bin/conda update -y conda >>$PANDIR/bootstrap.log 2>&1
+
+echo "************** Installing python requirements **************"
 if [ -f "$POCS/requirements.txt" ]; then
     echo "Installing required python packages for PANOPTES"
-    $ANACONDADIR/bin/conda install -y --file $POCS/requirements.txt
+    $ANACONDADIR/bin/conda install -y --file $POCS/requirements.txt >>$PANDIR/bootstrap.log 2>&1
 fi
 
-echo "Updating gphoto2"
+echo "************** Updating gphoto2 **************"
 if [ ! -f "$PANDIR/gphoto2-updater.sh" ]; then
     # This is a big download so we cache it in main dir
     cd $PANDIR
     wget -q https://raw.githubusercontent.com/gonzalo/gphoto2-updater/master/gphoto2-updater.sh && chmod +x gphoto2-updater.sh
 fi
-sudo ./gphoto2-updater.sh
+sudo ./gphoto2-updater.sh >>$PANDIR/bootstrap.log 2>&1
 
+echo "************** Checking cdsclient **************"
 if ! hash cdsclient 2>/dev/null ; then
-    echo "Installing cdsclient"
     cd /tmp
-    wget http://cdsarc.u-strasbg.fr/ftp/pub/sw/cdsclient.tar.gz
-    tar -zxvf cdsclient.tar.gz && cd cdsclient-3.80/ && ./configure && make && sudo make install && cd $HOME
+    wget http://cdsarc.u-strasbg.fr/ftp/pub/sw/cdsclient.tar.gz >>$PANDIR/bootstrap.log 2>&1
+    tar -zxvf cdsclient.tar.gz >>$PANDIR/bootstrap.log 2>&1 && cd cdsclient-3.80/ && ./configure >>$PANDIR/bootstrap.log 2>&1 && make >>$PANDIR/bootstrap.log 2>&1 && sudo make install >>$PANDIR/bootstrap.log 2>&1 && cd $HOME
 fi
 
+echo "************** Checking scamp **************"
 if ! hash scamp 2>/dev/null ; then
     echo "Installing SCAMP"
-    cd /tmp && wget http://www.astromatic.net/download/scamp/scamp-2.0.4.tar.gz
-    tar -zxvf scamp-2.0.4.tar.gz && cd scamp-2.0.4
+    cd /tmp && wget http://www.astromatic.net/download/scamp/scamp-2.0.4.tar.gz >>$PANDIR/bootstrap.log 2>&1
+    tar -zxvf scamp-2.0.4.tar.gz >>$PANDIR/bootstrap.log 2>&1 && cd scamp-2.0.4
     ./configure \
         --with-atlas-libdir=/usr/lib/atlas-base \
         --with-atlas-incdir=/usr/include/atlas \
         --with-fftw-libdir=/usr/lib \
         --with-fftw-incdir=/usr/include \
         --with-plplot-libdir=/usr/lib \
-        --with-plplot-incdir=/usr/include/plplot
-    make && sudo make install
+        --with-plplot-incdir=/usr/include/plplot >>$PANDIR/bootstrap.log 2>&1
+    make >>$PANDIR/bootstrap.log 2>&1 && sudo make install >>$PANDIR/bootstrap.log 2>&1
 fi
 
-echo "Installing SWARP and astrometry.net"
-sudo aptitude install -y install swarp astrometry.net
+echo "************** Installing SWARP and astrometry.net **************"
+sudo aptitude install -y install swarp astrometry.net >>$PANDIR/bootstrap.log 2>&1
 
 if [ ! -f "/usr/share/data/index-4107.fits" ]; then
-    echo "Getting astrometry.net indicies"
-    cd /usr/share/data && sudo wget -q -A fits -m -l 1 -nd http://broiler.astrometry.net/~dstn/4100/
+    echo "************** Getting astrometry.net indicies **************"
+    cd /usr/share/data && sudo wget -q -A fits -m -l 1 -nd http://broiler.astrometry.net/~dstn/4100/ >>$PANDIR/bootstrap.log 2>&1
 fi
 
 echo "************** Done with Requirements **************"
 
 # Upgrade system
-echo "Upgrading system"
-sudo aptitude -y full-upgrade
+echo "************** Upgrading system **************"
+sudo aptitude -y full-upgrade >>$PANDIR/bootstrap.log 2>&1
 
 echo "************** Done with install **************"
