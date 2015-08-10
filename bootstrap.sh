@@ -1,14 +1,30 @@
 #!/usr/bin/env bash
 
-echo "************** Updating System and Installing Requirements **************"
 echo "************** Starting with Project Install **************"
 
 PANUSER=panoptes
 PANDIR=/var/panoptes
-# PANHOME=/home/${PANUSER}
+#PANHOME=/home/${PANUSER}
 #ANACONDADIR=/opt/anaconda3
 PANHOME=$HOME
 ANACONDADIR=$HOME/anaconda3
+
+echo "Make sure the following are correct. If not, edit bootstrap.sh"
+
+echo "\$PANUSER = $PANUSER"
+echo "\$PANDIR = $PANDIR"
+echo "\$PANHOME = $PANHOME"
+echo "\$ANACONDADIR = $ANACONDADIR"
+
+echo "Do you wish to continue with the install?"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) echo "Check bootstrap.log for detailed logs"; break;;
+        No ) echo "Goodbye"; exit;;
+    esac
+done
+
+echo "********************************************************"
 
 function add_to_bashrc() {
     echo "Adding environmental variable: $1=$2";
@@ -133,7 +149,7 @@ if [ ! -f "$PANDIR/gphoto2-updater.sh" ]; then
     cd $PANDIR
     wget -q https://raw.githubusercontent.com/gonzalo/gphoto2-updater/master/gphoto2-updater.sh && chmod +x gphoto2-updater.sh
 fi
-sudo ./gphoto2-updater.sh >>$PANDIR/bootstrap.log 2>&1
+sudo $PANDIR/gphoto2-updater.sh >>$PANDIR/bootstrap.log 2>&1
 
 echo "************** Checking cdsclient **************"
 if ! hash cdsclient 2>/dev/null ; then
