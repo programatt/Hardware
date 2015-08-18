@@ -24,6 +24,8 @@
 | Pier post beams, 500mm long extrusion | 2 | Misumi HFS8-80160-500-TPW | $84.75 | [Jun 05, 2015]
 | Pier post side beam for webcm | 1 | Misumi HFS8-4080-400 | $13.20 | [Jun 05, 2015]
 | end caps | 1 | Misumi HFC8-4080-S | $3.00 | [Jun 05, 2015]
+| post-assembly nuts - spring loaded | 10 | Misumi SHNTAP8-6 | $1.25 | [Aug 17, 2015]
+| pre-assembly nuts | 10 | Misumi PACK-HNTTSN8-6 | $33.10 / 100 | [Aug 17, 2015]
 |
 | __Electronics Box__
 | Electronics Enclosure: Pelican 1560 | 1 | Amazon B000ALVE2M | $164.95 | Pick light color (white, silver, grey)
