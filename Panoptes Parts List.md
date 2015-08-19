@@ -47,13 +47,13 @@
 | 1/4-20 Bolts | | | | |
 |
 | __Electronics__ (incomplete list)
-| Arduino Micro | 2 | Adafruit #1086 | $25 (2015/03) |
-| Temperature Sensor: DS18B20 | 5 | [Adafruit #374](http://www.adafruit.com/product/374) | $4 (2015/03) | 
-| Humidity Sensor: DHT22 or AM2302 | 2 | [Adafruit #393](http://www.adafruit.com/product/393) | $15 (2015/03) | 
-| Orientation Sensor: MMA8451 | 1 | [Adafruit #2019](http://www.adafruit.com/product/2019) | $8 (2015/03) | 
-| 9V DC Regulator: | 3 | [DigiKey #102-1717-ND](http://www.digikey.com/product-detail/en/V7809-1000/102-1717-ND/1828610) | $7.81 (2015/08)
-| 5V DC Regulator: | 1 | [DigiKey #102-1715-ND](http://www.digikey.com/product-detail/en/V7805-1000/102-1715-ND/1828608) | $7.81 (2015/08) 
-| Relay: | 2 | [DigiKey #374-1051-ND](http://www.digikey.com/product-detail/en/DIP05-1A72-11L/374-1051-ND/2171028) | $4.75 (2015/08)
+| Arduino Micro | 2 | Adafruit #1086 | $25 | (2015/03) |
+| Temperature Sensor: DS18B20 | 5 | [Adafruit #374](http://www.adafruit.com/product/374) | $4 | (2015/03) | 
+| Humidity Sensor: DHT22 or AM2302 | 2 | [Adafruit #393](http://www.adafruit.com/product/393) | $15 | (2015/03) | 
+| Orientation Sensor: MMA8451 | 1 | [Adafruit #2019](http://www.adafruit.com/product/2019) | $8 | (2015/03) | 
+| 9V DC Regulator: | 3 | [DigiKey #102-1717-ND](http://www.digikey.com/product-detail/en/V7809-1000/102-1717-ND/1828610) | $7.81 | (2015/08)
+| 5V DC Regulator: | 1 | [DigiKey #102-1715-ND](http://www.digikey.com/product-detail/en/V7805-1000/102-1715-ND/1828608) | $7.81 | (2015/08) 
+| Relay: | 2 | [DigiKey #374-1051-ND](http://www.digikey.com/product-detail/en/DIP05-1A72-11L/374-1051-ND/2171028) | $4.75 | (2015/08)
 | Relay: | 
 |
 | __Weather Station__
