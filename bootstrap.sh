@@ -32,13 +32,13 @@ function add_to_bashrc() {
     # Also add to current environment
     export $1=$2
 
-    cat <<END >> ${PANHOME}/.bashrc
+    /bin/cat <<END >> ${PANHOME}/.bashrc
 export $1=$2
 END
 source ${PANHOME}/.bashrc
 
     if [ -d /home/vagrant ]; then
-        cat <<END >> /home/vagrant/.bashrc
+        /bin/cat <<END >> /home/vagrant/.bashrc
 export $1=$2
 END
         source /home/vagrant/.bashrc
@@ -111,9 +111,9 @@ if ! hash conda 2>/dev/null ; then
 
     miniconda=Miniconda3-latest-Linux-x86_64.sh
     if [[ ! -f $miniconda ]]; then
-        wget http://repo.continuum.io/miniconda/$miniconda >>$PANDIR/bootstrap.log 2>&1
+        /usr/bin/wget http://repo.continuum.io/miniconda/$miniconda >>$PANDIR/bootstrap.log 2>&1
     fi
-    chmod +x $miniconda
+    /bin/chmod +x $miniconda
 
     if [ ! -d "$ANACONDADIR" ]; then
         echo "************** Creating Anaconda directory **************"
@@ -130,7 +130,7 @@ if ! hash conda 2>/dev/null ; then
 
     # Check your python version
     echo "Checking python version"
-    python -V
+    $ANACONDADIR/bin/python -V
 fi
 
 # Update the anaconda distribution
@@ -147,22 +147,22 @@ echo "************** Updating gphoto2 **************"
 if [ ! -f "$PANDIR/gphoto2-updater.sh" ]; then
     # This is a big download so we cache it in main dir
     cd /tmp
-    wget -q https://raw.githubusercontent.com/gonzalo/gphoto2-updater/master/gphoto2-updater.sh && chmod +x gphoto2-updater.sh
+    /usr/bin/wget -q https://raw.githubusercontent.com/gonzalo/gphoto2-updater/master/gphoto2-updater.sh && /bin/chmod +x gphoto2-updater.sh
 fi
 sudo /tmp/gphoto2-updater.sh >>$PANDIR/bootstrap.log 2>&1
 
 echo "************** Checking cdsclient **************"
 if ! hash cdsclient 2>/dev/null ; then
     cd /tmp
-    wget http://cdsarc.u-strasbg.fr/ftp/pub/sw/cdsclient.tar.gz >>$PANDIR/bootstrap.log 2>&1
-    tar -zxvf cdsclient.tar.gz >>$PANDIR/bootstrap.log 2>&1 && cd cdsclient-3.80/ && ./configure >>$PANDIR/bootstrap.log 2>&1 && make >>$PANDIR/bootstrap.log 2>&1 && sudo make install >>$PANDIR/bootstrap.log 2>&1 && cd $HOME
+    /usr/bin/wget http://cdsarc.u-strasbg.fr/ftp/pub/sw/cdsclient.tar.gz >>$PANDIR/bootstrap.log 2>&1
+    /bin/tar -zxvf cdsclient.tar.gz >>$PANDIR/bootstrap.log 2>&1 && cd cdsclient-3.80/ && ./configure >>$PANDIR/bootstrap.log 2>&1 && make >>$PANDIR/bootstrap.log 2>&1 && sudo make install >>$PANDIR/bootstrap.log 2>&1 && cd $HOME
 fi
 
 echo "************** Checking scamp **************"
 if ! hash scamp 2>/dev/null ; then
-    echo "Installing SCAMP"
+    /bin/echo "Installing SCAMP"
     cd /tmp && wget http://www.astromatic.net/download/scamp/scamp-2.0.4.tar.gz >>$PANDIR/bootstrap.log 2>&1
-    tar -zxvf scamp-2.0.4.tar.gz >>$PANDIR/bootstrap.log 2>&1 && cd scamp-2.0.4
+    /bin/tar -zxvf scamp-2.0.4.tar.gz >>$PANDIR/bootstrap.log 2>&1 && cd scamp-2.0.4
     ./configure \
         --with-atlas-libdir=/usr/lib/atlas-base \
         --with-atlas-incdir=/usr/include/atlas \
@@ -177,8 +177,8 @@ echo "************** Installing SWARP and astrometry.net **************"
 sudo aptitude install -y install swarp astrometry.net >>$PANDIR/bootstrap.log 2>&1
 
 if [ ! -f "/usr/share/data/index-4107.fits" ]; then
-    echo "************** Getting astrometry.net indicies **************"
-    cd /usr/share/data && sudo wget -q -A fits -m -l 1 -nd http://broiler.astrometry.net/~dstn/4100/ >>$PANDIR/bootstrap.log 2>&1
+    /bin/echo "************** Getting astrometry.net indicies **************"
+    cd /usr/share/data && sudo /usr/bin/wget -q -A fits -m -l 1 -nd http://broiler.astrometry.net/~dstn/4100/ >>$PANDIR/bootstrap.log 2>&1
 fi
 
 echo "************** Done with Requirements **************"
