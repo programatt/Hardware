@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+#
+# converts from cr2 to fits
+#
+
+cfits << EOF
+RGBfullres=0
+_RGBfast=-1
+loadcr2torgb "$1" im0r im0g im0b
+savefits im0r "!im0r.fits"
+savefits im0g "!im0g.fits"
+savefits im0b "!im0b.fits"
+quit
+EOF
