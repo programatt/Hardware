@@ -12,7 +12,7 @@
 | Aluminum Plates 0.5" x 3" x 12" | 3 | eBay | $8.59 | [Jun 03, 2015] ebay temco ($85.58 for qty=10). If not available on eBay, try www.speedymetals.com (likely to be more expensive + shipping)
 | Vixen Dovetail Rail | 1 | OPT #OR-7383 (or OPT #SV-TP10) | $21-40 (2015/03) | any ~8" long Vixen style rail will work
 | USB Hub | 1 | Amazon B003M0NURK | $6.75 | [Jun 03, 2015] 
-| Mini right angle USB cable | 2 | Amazon B004W8EIMW | $4.19 | [Jun 03, 2015] Right angle connected required to fit in tight space
+| Mini right angle USB cable | 2 | [GameSeek](http://www.gameseek.co.uk/pd/Comhy79mmz5khn/Startech-Mini-Usb-Cable--A-To-Right-Angle-Mini-B-3-Feet-) | $4.09 | [Jun 03, 2015] Right angle connected required to fit in tight space
 |
 | __Mount__
 | Mount: iOptron iEQ30 Pro | 1 | OPT #IO-3000E | $1398 (2015/03)
@@ -24,6 +24,8 @@
 | Pier post beams, 500mm long extrusion | 2 | Misumi HFS8-80160-500-TPW | $84.75 | [Jun 05, 2015]
 | Pier post side beam for webcm | 1 | Misumi HFS8-4080-400 | $13.20 | [Jun 05, 2015]
 | end caps | 1 | Misumi HFC8-4080-S | $3.00 | [Jun 05, 2015]
+| post-assembly nuts - spring loaded | 10 | Misumi SHNTAP8-6 | $1.25 | [Aug 17, 2015]
+| pre-assembly nuts | 10 | Misumi PACK-HNTTSN8-6 | $33.10 / 100 | [Aug 17, 2015]
 |
 | __Electronics Box__
 | Electronics Enclosure: Pelican 1560 | 1 | Amazon B000ALVE2M | $164.95 | Pick light color (white, silver, grey)
@@ -45,13 +47,13 @@
 | 1/4-20 Bolts | | | | |
 |
 | __Electronics__ (incomplete list)
-| Arduino Micro | 2 | Adafruit #1086 | $25 (2015/03) |
-| Temperature Sensor: DS18B20 | 5 | [Adafruit #374](http://www.adafruit.com/product/374) | $4 (2015/03) | 
-| Humidity Sensor: DHT22 or AM2302 | 2 | [Adafruit #393](http://www.adafruit.com/product/393) | $15 (2015/03) | 
-| Orientation Sensor: MMA8451 | 1 | [Adafruit #2019](http://www.adafruit.com/product/2019) | $8 (2015/03) | 
-| 9V DC Regulator: | 
-| 5V DC Regulator: |
-| Relay: |
+| Arduino Micro | 2 | Adafruit #1086 | $25 | (2015/03) |
+| Temperature Sensor: DS18B20 | 5 | [Adafruit #374](http://www.adafruit.com/product/374) | $4 | (2015/03) | 
+| Humidity Sensor: DHT22 or AM2302 | 2 | [Adafruit #393](http://www.adafruit.com/product/393) | $15 | (2015/03) | 
+| Orientation Sensor: MMA8451 | 1 | [Adafruit #2019](http://www.adafruit.com/product/2019) | $8 | (2015/03) | 
+| 9V DC Regulator: | 2 | [DigiKey #102-1717-ND](http://www.digikey.com/product-detail/en/V7809-1000/102-1717-ND/1828610) | $7.81 | (2015/08)
+| 5V DC Regulator: | 1 | [DigiKey #102-1715-ND](http://www.digikey.com/product-detail/en/V7805-1000/102-1715-ND/1828608) | $7.81 | (2015/08) 
+| Relay: | 2 | [DigiKey #374-1051-ND](http://www.digikey.com/product-detail/en/DIP05-1A72-11L/374-1051-ND/2171028) | $4.75 | (2015/08)
 | Relay: | 
 |
 | __Weather Station__
