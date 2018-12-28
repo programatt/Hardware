@@ -13,10 +13,8 @@
 | Vixen Dovetail Rail | 1 | OPT #OR-7383 (or OPT #SV-TP10) | $21-40 (2015/03) | any ~8" long Vixen style rail will work
 | USB Hub | 1 | Amazon B003M0NURK | $6.75 | [Jun 03, 2015] 
 | Mini right angle USB cable | 2 | [GameSeek](http://www.gameseek.co.uk/pd/Comhy79mmz5khn/Startech-Mini-Usb-Cable--A-To-Right-Angle-Mini-B-3-Feet-) | $4.09 | [Jun 03, 2015] Right angle connected required to fit in tight space
-|
 | __Mount__
 | Mount: iOptron iEQ30 Pro | 1 | OPT #IO-3000E | $1398 (2015/03)
-|
 | __Custom Pier__ | | | | __The pier is optional, you can use the included tripod instead__
 | Aluminum 8"x8" x 3/4" | 1 | eBay | $22.15 | [Jun 03, 2015] eBay seller m6061dude, otherwise try onlinemetals (likely to be more expensive + shipping)
 | Aluminum 12"x12" x 3/4" | 1 | eBay | $46 | [Jun 03, 2015] eBay seller metalremnantsinc, otherwise try speedymetals (likely to be more expensive + shipping)
@@ -26,7 +24,6 @@
 | end caps | 1 | Misumi HFC8-4080-S | $3.00 | [Jun 05, 2015]
 | post-assembly nuts - spring loaded | 10 | Misumi SHNTAP8-6 | $1.25 | [Aug 17, 2015]
 | pre-assembly nuts | 10 | Misumi PACK-HNTTSN8-6 | $33.10 / 100 | [Aug 17, 2015]
-|
 | __Electronics Box__
 | Electronics Enclosure: Pelican 1560 | 1 | Amazon B000ALVE2M | $164.95 | Pick light color (white, silver, grey)
 | Perforated Sheet 12"x24"| 1 | Amazon B000ILJZWA | $29.67 | [Jun 03, 2015] 
@@ -41,11 +38,9 @@
 | USB Cables | | | |
 | USB Hub | | | |
 | 80mm ball bearing fan | 1 | Amazon B0009JZSKO | $4.95 | [Jun 03, 2015]
-|
 | __Bolts__
 | M6 Bolts | | | | |
 | 1/4-20 Bolts | | | | |
-|
 | __Electronics__ (incomplete list)
 | Arduino Micro | 2 | Adafruit #1086 | $25 | (2015/03) |
 | Temperature Sensor: DS18B20 | 5 | [Adafruit #374](http://www.adafruit.com/product/374) | $4 | (2015/03) | 
@@ -55,10 +50,10 @@
 | 5V DC Regulator: | 1 | [DigiKey #102-1715-ND](http://www.digikey.com/product-detail/en/V7805-1000/102-1715-ND/1828608) | $7.81 | (2015/08) 
 | Relay: | 2 | [DigiKey #374-1051-ND](http://www.digikey.com/product-detail/en/DIP05-1A72-11L/374-1051-ND/2171028) | $4.75 | (2015/08)
 | Relay: | 
-|
 | __Weather Station__
 | AAG Cloud Sensor | 1 | OPT #TT-AAG2 | $495 (2015/03) | 
 | AAG Anemometer | 1 | OPT #TT-ANEMO4403 | $149 (2015/03) | 
+
 
 
 ## Tools / Misc
