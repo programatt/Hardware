@@ -55,7 +55,6 @@
 | AAG Anemometer | 1 | OPT #TT-ANEMO4403 | $149 (2015/03) | 
 
 
-
 ## Tools / Misc
 
 * Power hand drill or drill press
